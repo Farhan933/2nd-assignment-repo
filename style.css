@@ -1,0 +1,37 @@
+/* common style or utilities  */
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* __________nav start___________  */
+.nav-var{
+    width: 100%;
+    /* background-color: rgb(23, 23, 59); */
+}
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-text{
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.right-nav ul{
+    display: flex;
+}
+.right-nav ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+.right-nav ul li a{
+    color: #3A3A3A;
+    text-decoration: none;
+    list-style: none;
+}
+.fa-solid {
+height: 21px;
+width: 21px;
+}
+/* __________nav end___________  */
