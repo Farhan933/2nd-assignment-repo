@@ -7,7 +7,8 @@ body{
 /* __________nav start___________  */
 .nav-var{
     width: 100%;
-    /* background-color: rgb(23, 23, 59); */
+    background-color: rgba(238, 238, 238, 0.404);
+    
 }
 .flex-nav{
     display: flex;
@@ -38,6 +39,11 @@ width: 21px;
 
 /* ________________main section start  */
 /* --section-1 start--  */
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .artical{
     width: 582px;
     height: 270px;
@@ -74,6 +80,10 @@ width: 21px;
     font-size: 16px;
     border-radius: 41px;
     color: white;
+}
+.image{
+    width: 440px;
+    height: 414px;
 }
 /* --section-1 end--  */
 /* main section end___________________  */
