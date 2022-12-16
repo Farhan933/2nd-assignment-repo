@@ -198,6 +198,27 @@ body{
     margin: 0;
     padding: 0;
 }
+/* see more part  */
+.bottom-part{
+    display: flex;
+    justify-items:right;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+.bottom-flex{
+    display: flex;
+    align-items: center;
+}
+.section-bottom{
+    font-weight: 700;
+    font-size: 16px;
+    color:#E02C6DDE;
+    margin-right: 8px;
+}
+.fa-solid,.arrow{
+    color: rgba(224, 44, 109, 0.87);
+}
+/* see more part */
 /* --section-3 end--  */
 
 /* main section end___________________  */
