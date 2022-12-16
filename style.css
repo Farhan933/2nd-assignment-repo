@@ -86,4 +86,38 @@ width: 21px;
     height: 414px;
 }
 /* --section-1 end--  */
+
+/* --section-2 start--  */
+.section-2{
+    margin-top: 170px;
+    display: flex;
+}
+.hr-logo{
+    width: 100%;
+    height: 110px;
+}
+.hr-top{
+    height: 8px;
+    background-image: linear-gradient(90deg, #AAAAAA, transparent);
+    border: 0;
+    height: 1px;
+    margin-bottom: 36px;
+}
+.logo-name img{
+    margin-right: 61px;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hr-bottom{
+    height: 8px;
+    background-image: linear-gradient(-90deg, #AAAAAA, transparent);
+    border: 0;
+    height: 1px;
+    margin-top: 36px;
+}
+/* --section-2 end--  */
+
 /* main section end___________________  */
