@@ -31,10 +31,7 @@ body{
     text-decoration: none;
     list-style: none;
 }
-.fa-solid {
-height: 21px;
-width: 21px;
-}
+
 /* __________nav end___________  */
 
 /* ________________main section start  */
@@ -130,6 +127,76 @@ width: 21px;
     font-weight: 600;
     text-align: center;
 
+}
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-column-gap: 30px;
+    
+
+}
+.Flex-Tripod{
+    width: 329px;
+    height: 476px;
+    background-color: #ffffff;
+    box-shadow: 0 -5px 15px -5px rgba(124, 124, 124, 0.342);
+    margin-bottom: 30px;
+    margin-right: 0;
+
+}
+.maintain{
+    margin: 17px 15px 17px 14px;
+}
+.images img{
+    width: 300px;
+    height: 256px;
+}
+.heading{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin: 0;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+
+}
+.icon{
+    width: 11.07px;
+    height: 10.32px;
+    color: #FB8200;
+    margin-right: 12px;
+}
+.digit{
+    margin-right: 8px;
+    color: #5E6366;
+    letter-spacing: 0.1px;
+    align-items: center;
+    font-size: 14px;
+
+}
+.info{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.018em;
+    color: #787885;
+    margin-top: 8px;
+}
+.first{
+    margin: 0;
+    padding: 0;
+}
+.mid{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    margin: 0;
+    padding: 0;
 }
 /* --section-3 end--  */
 
